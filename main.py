@@ -9,7 +9,4 @@ sys.stdout = arquivo
 
 
 
-
-
-
 arquivo.close()

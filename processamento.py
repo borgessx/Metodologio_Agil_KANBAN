@@ -1,5 +1,11 @@
-def media(notas):
-    return sum(notas) / len(notas)
+def media(lista):
+    medias = []
+    for aluno in lista:
+        notas = aluno[1]
+        media_aluno = sum(notas) / len(notas)
+        medias.append(media_aluno)
+    return medias
+    
 
 def validar_lista(lista):
     try:
