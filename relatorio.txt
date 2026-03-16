@@ -1,0 +1,2 @@
+A soma de 10 e 20 é: 30
+A média das notas é: 8.125
